@@ -29,7 +29,7 @@ export default {
   },
 
   mounted() {
-    Promise.resolve().then(() => {
+    this.$nextTick(() => {
       this.renderLineChart()
     })
   },
