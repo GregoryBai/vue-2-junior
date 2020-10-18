@@ -52,7 +52,6 @@ export default {
     handleChange(e) {
       this.hideError = false
       this.authInput = e.target.value.trim()
-      console.log(this.authInput)
     },
 
     handleEnter() {

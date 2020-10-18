@@ -50,6 +50,7 @@ export default {
   }
 }
 .error__text {
+  transform: perspective(1px) translateZ(0);
   font-family: $font-primary;
   color: $text-contrast;
   font-weight: bold;

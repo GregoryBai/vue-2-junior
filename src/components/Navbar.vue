@@ -21,7 +21,7 @@ export default {
   @include primary-component;
   font-family: $font-primary;
   background-color: $primary;
-  height: 4vh;
+  height: 40px;
   width: 95%;
   margin: 0px auto;
   color: $text-primary;
