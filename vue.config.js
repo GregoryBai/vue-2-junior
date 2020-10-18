@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "./",
+  publicPath: "/vue-2-junior/",
 }
