@@ -29,10 +29,10 @@ export default {
   },
   methods: {
     processData(arr) {
-      for (let dataObj of arr) {
-        this.chartData.labels.push(dayjs(dataObj.date).format("MMM D"))
-        this.chartData.data.push(dataObj.visits)
-      }
+      arr.forEach((obj) => {
+        this.chartData.labels.push(dayjs(obj.date).format("MMM D"))
+        this.chartData.data.push(obj.visits)
+      })
     },
   },
 
